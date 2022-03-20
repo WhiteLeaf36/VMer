@@ -1,0 +1,80 @@
+@charset "utf-8";
+@import url("../bootstrap.css");
+
+html {
+	
+	width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-style: sans-serif;
+    position: absolute;
+    border-radius: 25px;
+}
+
+#reg{
+	margin-top: 60px;
+	text-align: end;
+}
+
+#enter{
+	width: 250px;
+	text-align: end;
+}
+
+div {
+	margin-top:200px;
+	display:flex;
+	flex-direction: row-reverse;
+	align-items: flex-start;
+	justify-content: center;
+}
+text {
+        color: #FFF;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+h2 {
+        color: white;
+        letter-spacing: 1px;
+        margin-top:2%;
+        text-align: center;
+    }
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 13px;
+    color: #fff;
+    border-top: 1px solid #312E3D;
+    border-left: 1px solid #312E3D;
+    border-right: 1px solid #312E3D;
+    border-bottom: 1px solid #56536A;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+
+
+form  {
+	border-radius: 13px;
+	padding-top: 10px;
+	padding-right:10px;
+    position: absolute;
+	text-align: center;
+	width: 300px;
+    height: 500px;
+	background-color: #3E92E0;
+}
+.but {
+    width:55px;
+    min-height: 35px;
+	display: block;
+	margin-top: 1%;
+    background-color: #4a77d4;
+    border: 1px solid #3762bc;
+    color: #fff;
+    padding: 2.3%;
+    font-size: 98%;
+    line-height: normal;
+    border-radius: 13px;
+}
